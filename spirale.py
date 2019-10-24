@@ -13,17 +13,3 @@ x=-50           # ciklā zīmē 5 puslokus
 for i in range(5):
     circle(x,180)  
     x=-x 
-
-penup()         # paceļ zīmuli
-goto(0,0)              
-pencolor('green')        
-pendown()
-setheading(90)
-#fib=[1,1,2,3,5,8,13,21,34,55,89]
-fib=[1,1]
-i=2
-while i<12:
-    fib.append(fib[i-1]+fib[i-2])
-    i+=1
-for r in fib:
-    circle(-r,90)
