@@ -27,4 +27,3 @@ while i<12:
     i+=1
 for r in fib:
     circle(-r,90)
-
